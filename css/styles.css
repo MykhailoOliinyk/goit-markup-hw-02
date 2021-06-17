@@ -1,0 +1,64 @@
+body {
+  background: #ffffff;
+}
+
+/* Шапка  logo */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo1 {
+  color: #000000;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/* Шапка  Navigation */
+.meny-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.meny-link:hover,
+.meny-link:focus,
+.current {
+  color: #2196f3;
+}
+
+/* шапка контакты */
+
+.contakts-mail {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contakts-tel {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.12;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contakts-mail:hover,
+.contakts-mail:focus {
+  color: #2196f3;
+}
+.contakts-tel:hover,
+.contakts-tel:focus {
+  color: #2196f3;
+}
