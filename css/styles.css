@@ -21,7 +21,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo1 {
   color: #000000;
@@ -38,7 +38,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .meny-link:hover,
 .meny-link:focus,
@@ -53,12 +53,14 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 .contakts-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.12;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 .contakts-mail:hover,
 .contakts-mail:focus {
@@ -75,6 +77,7 @@ body {
   background: #2f303a;
 }
 .heroi-title {
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
@@ -203,13 +206,13 @@ body {
 
 /* Фильтр*/
 .filter-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
   background: #f5f4fa;
   border-radius: 4px;
   cursor: pointer;
